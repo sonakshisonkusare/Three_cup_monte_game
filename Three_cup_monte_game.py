@@ -1,27 +1,3 @@
-# from random import shuffle
-# mylist =[' ','0',' ']
-# mixed_list =shuffle(mylist)
-
-
-# def user_guess():
-#     guess =''
-#     while guess not in ['0','1','2']:
-#         guess =input("Pick a number:0,1,2\n")
-#     return int(guess)
-
-# guess=user_guess()
-
-# def check_guess(mixed_list,guess):
-#     if mylist[guess] =='0':
-#         print("Correct Guess")
-#     else:
-#         print("Incorrect guess!")
-#         print(mylist)
-#         print("Try Again....")
-        
-        
-# check_guess(mixed_list,guess)
-
 from random import shuffle
 
 def shuffle_list():
